@@ -7,6 +7,7 @@ string = input("Input a string: ")
 translation = str.maketrans("ABCDEFGHIJKLMNÑOPQRSTUVWXYZ", "abcdefghijklmnñopqrstuvwxyz")
 
 # convert the string to lower case using translation table method
+lower = string.translate(translation)
 
 # print the string in lower case
-
+print(lower)
