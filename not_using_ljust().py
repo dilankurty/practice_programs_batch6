@@ -4,10 +4,7 @@
 string = input("Input a string: ")
 
 # add left spaces to the string
-spaces = 100 - len(string)
-
-if spaces > 0:
-    string = string + " " * spaces
+string = string + " " * 50
 
 # print the result
 print(string)
