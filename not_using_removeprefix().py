@@ -8,3 +8,4 @@ if string.startswith("un", "re", "in", "im", "de"):
     string = string[2:]
 
 # print new string without the prefix
+print(string)
