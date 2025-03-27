@@ -3,11 +3,8 @@
 # prompt the user to input a string
 string = input("Input a string: ").lower()
 
-# tuple of prefixes
-prefix = ("un", "re", "in", "im", "de")
-
 # check if the prefix is used and remove it from the string
-if string.startswith(prefix):
+if string.startswith("im"):
     string = string[2:]
 
 # print new string without the prefix
