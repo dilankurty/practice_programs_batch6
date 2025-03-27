@@ -4,5 +4,8 @@
 string = input("Input a string: ")
 
 # check if all characters of the string is on upper case
+if string == string.upper():
+    result = True
 
 # print the result
+print(result)
