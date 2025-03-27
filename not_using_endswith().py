@@ -6,6 +6,8 @@ string = input("Input a string: ")
 # check if the end matches the parameter
 if string[-3:] == "ful":
     result = True
+else:
+    result = False
 
 # print the result
 print(result)
