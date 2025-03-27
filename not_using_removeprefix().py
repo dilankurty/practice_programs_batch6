@@ -3,6 +3,8 @@
 # prompt the user to input a string
 string = input("Input a string: ")
 
-# remove prefix from the string
+# check if the prefix is used and remove it from the string
+if string.startswith("un", "re", "in", "im", "de"):
+    string = string[2:]
 
 # print new string without the prefix
