@@ -1,7 +1,7 @@
 # Prog02. removeprefix() remove the characters at the beginning of the string that matches the function parameter. Create a program that do the same functionality without using removeprefix() function.
 
 # prompt the user to input a string
-string = input("Input a string: ")
+string = input("Input a string: ").lower()
 
 # tuple of prefixes
 prefix = ("un", "re", "in", "im", "de")
