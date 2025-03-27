@@ -2,7 +2,8 @@
 
 # prompt the user to input a string
 
-# convert the string to lower case
+# convert the string to lower case using translation table method
+
 
 # print the string in lower case
 
