@@ -10,3 +10,4 @@ for word in string.split():
     title.append(word[0].upper() + word[1:].lower())
 
 # print the result
+print(" ".join(title))
