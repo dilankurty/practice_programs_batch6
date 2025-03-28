@@ -4,7 +4,7 @@
 string = input("Input a string: ")
 
 # convert the first character to uppercase and convert the rest of the characters to lowercase
-
+string = string[0].upper() + string[1:].lower()
 
 # print the result
 print(string)
