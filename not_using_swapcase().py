@@ -7,5 +7,6 @@ string = input("Input a string: ")
 translation_table = str.maketrans("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
 
 # using for loop, iterate through the string to tramslate each character
-
-# print the result
+for char in string:
+    # print the result
+    print(char.translate(translation_table), end="")
