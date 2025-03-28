@@ -1,10 +1,12 @@
 # Prog06. ljust() add space characters at the end of the string to complete the number of characters specifies in function parameter. Create a program that do the same functionality without using ljust() function.
 
-# prompt the user to input a string
-string = input("Input a string: ")
+# prompt the user to input a multiple line string
+string_list = []
 
-# add left spaces to the string
-string = string + " " * 50
+while True:
+    string = input("Input a string(press enter to stop): ")
+    # add left spaces to the string
+    string_list.append(string + " " * (50 - len(string)))
 
 # print the result
-print(string)
+print(string_list)
