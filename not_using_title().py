@@ -4,5 +4,9 @@
 string = input("Input a string: ")
 
 # converts the first character to uppercase and converts the rest of the characters to lowercase
+title = []
+
+for word in string.split():
+    title.append(word[0].upper() + word[1:].lower())
 
 # print the result
