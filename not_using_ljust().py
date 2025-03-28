@@ -5,8 +5,11 @@ string_list = []
 
 while True:
     string = input("Input a string(press enter to stop): ")
-    # add left spaces to the string
-    string_list.append(string + " " * (50 - len(string)))
+    if string == "":
+        break
+    else:
+        # add left spaces to the string
+        string_list.append(string + " " * (50 - len(string)))
 
 # print the result
 print(string_list)
