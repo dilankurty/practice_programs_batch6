@@ -12,3 +12,5 @@ while True:
         string_list.append(" " * (50 - len(string)) + string)
 
 # print the result
+for string in string_list:
+    print(string)
