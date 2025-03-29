@@ -8,7 +8,7 @@ while True:
     if string == "":
         break
     else:
-        # add left spaces to the string
+        # add right spaces to the string
         string_list.append(string + " " * (50 - len(string)))
 
 # print the result
