@@ -4,5 +4,6 @@
 string = input("Input a string: ")
 
 # check how many time the function parameter appear in the string
+count = 0
 
 # print the result
