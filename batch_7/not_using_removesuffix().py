@@ -3,6 +3,9 @@
 # prompt the user to input a string
 string = input("Input a string: ").lower()
 
-# check if the suffix is used and remove it from the string
+# check if the suffix is used ("ed") and remove it from the string
+if string.endswith("ed"):
+    string = string[:-2]
 
 # print the result
+print(string)
