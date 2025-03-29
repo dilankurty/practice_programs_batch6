@@ -10,3 +10,4 @@ for char in string:
         count += 1
 
 # print the result
+print(count)
