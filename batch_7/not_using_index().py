@@ -10,3 +10,4 @@ for i in range(len(string)):
         break
 
 # print the result
+print(index)
