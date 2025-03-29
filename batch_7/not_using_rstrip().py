@@ -5,7 +5,7 @@ string = input("Input a string: ")
 
 # removes the space characters at the end of the string
 while string[-1] == " ":
-    string = string[:-2]
+    string = string[:-1]
 
 # print the result
 print(string)
