@@ -4,6 +4,9 @@
 string = input("Input a string: ")
 
 # check the location of the parameter in the string
-
+for i in range(len(string)):
+    if string[i] == "a":
+        index = i
+        break
 
 # print the result
