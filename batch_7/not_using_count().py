@@ -5,5 +5,8 @@ string = input("Input a string: ")
 
 # check how many time the function parameter appear in the string
 count = 0
+for char in string:
+    if char == "a":
+        count += 1
 
 # print the result
