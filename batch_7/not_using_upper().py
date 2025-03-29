@@ -7,5 +7,7 @@ string = input("Input a string: ")
 translation = str.maketrans("abcdefghijklmnñopqrstuvwxyz", "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ")
 
 # translate the string to upper case using translation table method
+upper = string.translate(translation)
 
 # print the string in upper case
+print(upper)
