@@ -4,7 +4,8 @@
 string = input("Input a string: ")
 
 # check if the beginning matches the parameter
-
+if string[:3] == "pre":
+    result = True
 
 # print the result
-
+print(result)
