@@ -3,6 +3,8 @@
 # prompt the user to input a string
 string = input("Input a string: ")
 
-# reverse the string and removes the space characters at the beginning of the string
+# removes the space characters at the end of the string
+if string[-1] == " ":
+    string = string[:-1]
 
 # print the result
