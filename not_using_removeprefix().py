@@ -3,7 +3,7 @@
 # prompt the user to input a string
 string = input("Input a string: ").lower()
 
-# check if the prefix is used and remove it from the string
+# check if the prefix is used ("im") and remove it from the string
 if string.startswith("im"):
     string = string[2:]
 
