@@ -4,5 +4,8 @@
 string = input("Input a string: ")
 
 # add zero at the beginning of the string (if the string is less than 5 characters)
+if len(string) < 5:
+    string = "0" * (5 - len(string)) + string
 
 # print the result
+print(string)
