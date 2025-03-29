@@ -2,6 +2,9 @@
 
 # prompt the user to input a string
 
+
 # check if the beginning matches the parameter
 
+
 # print the result
+
