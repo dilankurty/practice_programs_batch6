@@ -6,6 +6,8 @@ string = input("Input a string: ")
 # check if the beginning matches the parameter
 if string[:3] == "pre":
     result = True
+else:
+    result = False
 
 # print the result
 print(result)
