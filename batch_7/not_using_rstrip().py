@@ -4,7 +4,8 @@
 string = input("Input a string: ")
 
 # removes the space characters at the end of the string
-if string[-1] == " ":
-    string = string[:-1]
+while string[-1] == " ":
+    string = string[:-2]
 
 # print the result
+print(string)
