@@ -4,6 +4,7 @@
 string = input("Input a string: ")
 
 # create a translation table
+translation = str.maketrans("abcdefghijklmnñopqrstuvwxyz", "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ")
 
 # translate the string to upper case using translation table method
 
