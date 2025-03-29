@@ -6,6 +6,8 @@ string = input("Input a string: ")
 # check if all characters of the string is on lower case
 if string == string.lower():
     result = True
+else:
+    result = False
 
 # print the result
 print(result)
