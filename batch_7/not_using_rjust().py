@@ -7,7 +7,8 @@ while True:
     string = input("Input a string(press enter to stop): ")
     if string == "":
         break
-
-# add left spaces to the string
+    else:
+        # add left spaces to the string
+        string_list.append(" " * (50 - len(string)) + string)
 
 # print the result
